@@ -8,10 +8,10 @@
         <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.eoh.monitoring.app</groupId>
-    <artifactId>eoh-monitoring-app</artifactId>
+    <groupId>com.asset.monitoring.app</groupId>
+    <artifactId>asset-monitoring-app</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eoh-monitoring-app</name>
+    <name>asset-monitoring-app</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -61,11 +61,36 @@
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-rest</artifactId>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.4.0</version>
         </dependency>
 
-		
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-rest</artifactId>
+            <version>2.1.6.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <version>2.1.4.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+            <version>1.4.199</version>
+        </dependency>
+
+
     </dependencies>
 
 	
